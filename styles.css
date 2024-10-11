@@ -66,3 +66,28 @@ h3 {
     padding: 8px;
   }
 }
+
+.credit {
+  text-align: center;
+  /* Center the text */
+  margin-top: 20px;
+  /* Space above the credit section */
+  font-size: 14px;
+  /* Font size for the credit */
+}
+
+.credit a {
+  color: #433839;
+  /* brown color for the link */
+  text-decoration: none;
+  /* Remove underline from the link */
+  font-weight: bold;
+  /* Make the link bold */
+  transition: color 0.3s;
+  /* Smooth color transition */
+}
+
+.credit a:hover {
+  color: #030303;
+  /* Darker brown on hover */
+}
